@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './bootstrap/App';
+import Card from './bootstrapeasier/Card';
 import reportWebVitals from './reportWebVitals';
+import Calculator from './Calculator';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Calculator/>
+    
+ 
   </React.StrictMode>
 );
 
