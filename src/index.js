@@ -1,19 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Card from './bootstrapeasier/Card';
-import reportWebVitals from './reportWebVitals';
-import Calculator from './Calculator';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Card from "./bootstrapeasier/Card";
+import reportWebVitals from "./reportWebVitals";
+import Calculator from "./Calculator";
+import GuessTheColor from "./GuessTheColor";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Calculator/>
-    
- 
-  </React.StrictMode>
-);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<GuessTheColor />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
